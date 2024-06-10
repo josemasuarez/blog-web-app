@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "Iw8ktvBbtzc=",
+  "success": true,
+  "projectFilePath": "/Users/josemariasuarez/Workspace/web-app/web-app/web-app.csproj",
+  "expectedPackageFiles": [
+    "/Users/josemariasuarez/.nuget/packages/bootstrap/5.3.3/bootstrap.5.3.3.nupkg.sha512",
+    "/Users/josemariasuarez/.nuget/packages/jquery/3.7.1/jquery.3.7.1.nupkg.sha512",
+    "/Users/josemariasuarez/.nuget/packages/microsoft.identitymodel.abstractions/7.6.0/microsoft.identitymodel.abstractions.7.6.0.nupkg.sha512",
+    "/Users/josemariasuarez/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.6.0/microsoft.identitymodel.jsonwebtokens.7.6.0.nupkg.sha512",
+    "/Users/josemariasuarez/.nuget/packages/microsoft.identitymodel.logging/7.6.0/microsoft.identitymodel.logging.7.6.0.nupkg.sha512",
+    "/Users/josemariasuarez/.nuget/packages/microsoft.identitymodel.tokens/7.6.0/microsoft.identitymodel.tokens.7.6.0.nupkg.sha512",
+    "/Users/josemariasuarez/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/josemariasuarez/.nuget/packages/popper.js/1.16.1/popper.js.1.16.1.nupkg.sha512",
+    "/Users/josemariasuarez/.nuget/packages/system.identitymodel.tokens.jwt/7.6.0/system.identitymodel.tokens.jwt.7.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

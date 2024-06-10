@@ -1,0 +1,9 @@
+@{
+    var username = Context.Session.GetString("Username");
+}
+@if (!string.IsNullOrEmpty(username))
+{
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Nuevo Articulo</a>
+    </li>
+}
