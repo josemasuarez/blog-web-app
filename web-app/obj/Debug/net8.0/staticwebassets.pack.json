@@ -1421,12 +1421,20 @@
       "PackagePath": "staticwebassets/lib/jquery/src/core/init.js"
     },
     {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/core/isAttached.js",
+      "PackagePath": "staticwebassets/lib/jquery/src/core/isAttached.js"
+    },
+    {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/core/nodeName.js",
       "PackagePath": "staticwebassets/lib/jquery/src/core/nodeName.js"
     },
     {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/core/parseHTML.js",
       "PackagePath": "staticwebassets/lib/jquery/src/core/parseHTML.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/core/parseXML.js",
+      "PackagePath": "staticwebassets/lib/jquery/src/core/parseXML.js"
     },
     {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/core/ready-no-deferred.js",
@@ -1453,6 +1461,10 @@
       "PackagePath": "staticwebassets/lib/jquery/src/core/toType.js"
     },
     {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/core/var/rhtml.js",
+      "PackagePath": "staticwebassets/lib/jquery/src/core/var/rhtml.js"
+    },
+    {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/core/var/rsingleTag.js",
       "PackagePath": "staticwebassets/lib/jquery/src/core/var/rsingleTag.js"
     },
@@ -1471,6 +1483,10 @@
     {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/css/curCSS.js",
       "PackagePath": "staticwebassets/lib/jquery/src/css/curCSS.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/css/finalPropName.js",
+      "PackagePath": "staticwebassets/lib/jquery/src/css/finalPropName.js"
     },
     {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/css/hiddenVisibleSelectors.js",
@@ -1499,6 +1515,10 @@
     {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/css/var/rboxStyle.js",
       "PackagePath": "staticwebassets/lib/jquery/src/css/var/rboxStyle.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/css/var/rcustomProp.js",
+      "PackagePath": "staticwebassets/lib/jquery/src/css/var/rcustomProp.js"
     },
     {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/css/var/rnumnonpx.js",
@@ -1539,6 +1559,14 @@
     {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/deprecated.js",
       "PackagePath": "staticwebassets/lib/jquery/src/deprecated.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/deprecated/ajax-event-alias.js",
+      "PackagePath": "staticwebassets/lib/jquery/src/deprecated/ajax-event-alias.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/deprecated/event.js",
+      "PackagePath": "staticwebassets/lib/jquery/src/deprecated/event.js"
     },
     {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/dimensions.js",
@@ -1657,6 +1685,14 @@
       "PackagePath": "staticwebassets/lib/jquery/src/selector.js"
     },
     {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/selector/contains.js",
+      "PackagePath": "staticwebassets/lib/jquery/src/selector/contains.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/selector/escapeSelector.js",
+      "PackagePath": "staticwebassets/lib/jquery/src/selector/escapeSelector.js"
+    },
+    {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/serialize.js",
       "PackagePath": "staticwebassets/lib/jquery/src/serialize.js"
     },
@@ -1705,6 +1741,10 @@
       "PackagePath": "staticwebassets/lib/jquery/src/var/documentElement.js"
     },
     {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/var/flat.js",
+      "PackagePath": "staticwebassets/lib/jquery/src/var/flat.js"
+    },
+    {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/var/fnToString.js",
       "PackagePath": "staticwebassets/lib/jquery/src/var/fnToString.js"
     },
@@ -1733,8 +1773,16 @@
       "PackagePath": "staticwebassets/lib/jquery/src/var/pnum.js"
     },
     {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/var/pop.js",
+      "PackagePath": "staticwebassets/lib/jquery/src/var/pop.js"
+    },
+    {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/var/push.js",
       "PackagePath": "staticwebassets/lib/jquery/src/var/push.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/var/rcheckableType.js",
+      "PackagePath": "staticwebassets/lib/jquery/src/var/rcheckableType.js"
     },
     {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/var/rcssNum.js",
@@ -1745,8 +1793,20 @@
       "PackagePath": "staticwebassets/lib/jquery/src/var/rnothtmlwhite.js"
     },
     {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/var/rtrimCSS.js",
+      "PackagePath": "staticwebassets/lib/jquery/src/var/rtrimCSS.js"
+    },
+    {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/var/slice.js",
       "PackagePath": "staticwebassets/lib/jquery/src/var/slice.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/var/sort.js",
+      "PackagePath": "staticwebassets/lib/jquery/src/var/sort.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/var/splice.js",
+      "PackagePath": "staticwebassets/lib/jquery/src/var/splice.js"
     },
     {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/var/support.js",
@@ -1757,12 +1817,216 @@
       "PackagePath": "staticwebassets/lib/jquery/src/var/toString.js"
     },
     {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/var/whitespace.js",
+      "PackagePath": "staticwebassets/lib/jquery/src/var/whitespace.js"
+    },
+    {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/jquery/src/wrap.js",
       "PackagePath": "staticwebassets/lib/jquery/src/wrap.js"
     },
     {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/popper.js/LICENSE.md"
+    },
+    {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/README.md",
       "PackagePath": "staticwebassets/lib/popper.js/README.md"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/cjs/enums.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/cjs/enums.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/cjs/enums.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/cjs/enums.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/cjs/enums.js.map",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/cjs/enums.js.map"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/cjs/popper-base.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/cjs/popper-base.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/cjs/popper-base.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/cjs/popper-base.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/cjs/popper-base.js.map",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/cjs/popper-base.js.map"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/cjs/popper-lite.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/cjs/popper-lite.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/cjs/popper-lite.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/cjs/popper-lite.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/cjs/popper-lite.js.map",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/cjs/popper-lite.js.map"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/cjs/popper.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/cjs/popper.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/cjs/popper.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/cjs/popper.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/cjs/popper.js.map",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/cjs/popper.js.map"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/createPopper.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/createPopper.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/contains.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/contains.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/getBoundingClientRect.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/getBoundingClientRect.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/getClippingRect.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/getClippingRect.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/getCompositeRect.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/getCompositeRect.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/getComputedStyle.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/getComputedStyle.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/getDocumentElement.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/getDocumentElement.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/getDocumentRect.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/getDocumentRect.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/getHTMLElementScroll.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/getHTMLElementScroll.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/getLayoutRect.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/getLayoutRect.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/getNodeName.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/getNodeName.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/getNodeScroll.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/getNodeScroll.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/getOffsetParent.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/getOffsetParent.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/getParentNode.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/getParentNode.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/getScrollParent.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/getScrollParent.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/getViewportRect.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/getViewportRect.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/getWindow.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/getWindow.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/getWindowScroll.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/getWindowScroll.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/getWindowScrollBarX.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/getWindowScrollBarX.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/instanceOf.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/instanceOf.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/isScrollParent.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/isScrollParent.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/isTableElement.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/isTableElement.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/dom-utils/listScrollParents.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/dom-utils/listScrollParents.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/enums.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/enums.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/index.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/index.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/modifiers/applyStyles.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/modifiers/applyStyles.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/modifiers/arrow.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/modifiers/arrow.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/modifiers/computeStyles.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/modifiers/computeStyles.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/modifiers/eventListeners.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/modifiers/eventListeners.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/modifiers/flip.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/modifiers/flip.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/modifiers/hide.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/modifiers/hide.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/modifiers/index.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/modifiers/index.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/modifiers/offset.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/modifiers/offset.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/modifiers/popperOffsets.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/modifiers/popperOffsets.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/modifiers/preventOverflow.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/modifiers/preventOverflow.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/popper-base.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/popper-base.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/popper-lite.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/popper-lite.js"
     },
     {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/popper-utils.js",
@@ -1797,6 +2061,98 @@
       "PackagePath": "staticwebassets/lib/popper.js/dist/esm/popper.min.js.map"
     },
     {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/types.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/types.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/computeAutoPlacement.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/computeAutoPlacement.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/computeOffsets.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/computeOffsets.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/debounce.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/debounce.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/detectOverflow.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/detectOverflow.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/expandToHashMap.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/expandToHashMap.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/format.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/format.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/getAltAxis.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/getAltAxis.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/getAltLen.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/getAltLen.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/getBasePlacement.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/getBasePlacement.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/getFreshSideObject.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/getFreshSideObject.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/getMainAxisFromPlacement.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/getMainAxisFromPlacement.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/getOppositePlacement.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/getOppositePlacement.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/getOppositeVariationPlacement.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/getOppositeVariationPlacement.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/getVariation.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/getVariation.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/math.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/math.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/mergeByName.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/mergeByName.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/mergePaddingObject.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/mergePaddingObject.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/orderModifiers.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/orderModifiers.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/rectToClientRect.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/rectToClientRect.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/uniqueBy.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/uniqueBy.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/validateModifiers.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/validateModifiers.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/esm/utils/within.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/esm/utils/within.js"
+    },
+    {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/popper-utils.js",
       "PackagePath": "staticwebassets/lib/popper.js/dist/popper-utils.js"
     },
@@ -1829,6 +2185,66 @@
       "PackagePath": "staticwebassets/lib/popper.js/dist/popper.min.js.map"
     },
     {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/enums.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/umd/enums.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/enums.js.map",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/umd/enums.js.map"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/enums.min.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/umd/enums.min.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/enums.min.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/umd/enums.min.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/enums.min.js.map",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/umd/enums.min.js.map"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/popper-base.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/umd/popper-base.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/popper-base.js.map",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/umd/popper-base.js.map"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/popper-base.min.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/umd/popper-base.min.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/popper-base.min.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/umd/popper-base.min.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/popper-base.min.js.map",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/umd/popper-base.min.js.map"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/popper-lite.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/umd/popper-lite.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/popper-lite.js.map",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/umd/popper-lite.js.map"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/popper-lite.min.js",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/umd/popper-lite.min.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/popper-lite.min.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/umd/popper-lite.min.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/popper-lite.min.js.map",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/umd/popper-lite.min.js.map"
+    },
+    {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/popper-utils.js",
       "PackagePath": "staticwebassets/lib/popper.js/dist/umd/popper-utils.js"
     },
@@ -1849,12 +2265,20 @@
       "PackagePath": "staticwebassets/lib/popper.js/dist/umd/popper.js"
     },
     {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/popper.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/umd/popper.js.flow"
+    },
+    {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/popper.js.map",
       "PackagePath": "staticwebassets/lib/popper.js/dist/umd/popper.js.map"
     },
     {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/popper.min.js",
       "PackagePath": "staticwebassets/lib/popper.js/dist/umd/popper.min.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/popper.min.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/dist/umd/popper.min.js.flow"
     },
     {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/dist/umd/popper.min.js.map",
@@ -1873,8 +2297,992 @@
       "PackagePath": "staticwebassets/lib/popper.js/index.js.flow"
     },
     {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/createPopper.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/createPopper.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/createPopper.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/createPopper.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/createPopper.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/createPopper.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/contains.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/contains.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/contains.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/contains.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/contains.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/contains.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getBoundingClientRect.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getBoundingClientRect.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getBoundingClientRect.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getBoundingClientRect.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getBoundingClientRect.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getBoundingClientRect.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getClippingRect.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getClippingRect.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getClippingRect.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getClippingRect.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getClippingRect.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getClippingRect.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getCompositeRect.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getCompositeRect.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getCompositeRect.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getCompositeRect.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getCompositeRect.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getCompositeRect.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getComputedStyle.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getComputedStyle.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getComputedStyle.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getComputedStyle.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getComputedStyle.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getComputedStyle.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getDocumentElement.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getDocumentElement.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getDocumentElement.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getDocumentElement.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getDocumentElement.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getDocumentElement.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getDocumentRect.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getDocumentRect.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getDocumentRect.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getDocumentRect.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getDocumentRect.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getDocumentRect.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getHTMLElementScroll.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getHTMLElementScroll.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getHTMLElementScroll.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getHTMLElementScroll.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getHTMLElementScroll.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getHTMLElementScroll.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getLayoutRect.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getLayoutRect.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getLayoutRect.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getLayoutRect.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getLayoutRect.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getLayoutRect.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getNodeName.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getNodeName.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getNodeName.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getNodeName.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getNodeName.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getNodeName.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getNodeScroll.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getNodeScroll.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getNodeScroll.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getNodeScroll.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getNodeScroll.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getNodeScroll.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getOffsetParent.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getOffsetParent.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getOffsetParent.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getOffsetParent.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getOffsetParent.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getOffsetParent.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getParentNode.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getParentNode.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getParentNode.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getParentNode.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getParentNode.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getParentNode.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getScrollParent.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getScrollParent.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getScrollParent.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getScrollParent.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getScrollParent.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getScrollParent.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getViewportRect.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getViewportRect.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getViewportRect.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getViewportRect.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getViewportRect.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getViewportRect.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getWindow.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getWindow.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getWindow.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getWindow.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getWindow.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getWindow.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getWindowScroll.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getWindowScroll.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getWindowScroll.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getWindowScroll.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getWindowScroll.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getWindowScroll.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getWindowScrollBarX.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getWindowScrollBarX.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getWindowScrollBarX.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getWindowScrollBarX.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/getWindowScrollBarX.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/getWindowScrollBarX.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/instanceOf.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/instanceOf.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/instanceOf.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/instanceOf.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/instanceOf.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/instanceOf.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/isScrollParent.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/isScrollParent.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/isScrollParent.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/isScrollParent.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/isScrollParent.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/isScrollParent.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/isTableElement.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/isTableElement.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/isTableElement.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/isTableElement.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/isTableElement.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/isTableElement.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/listScrollParents.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/listScrollParents.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/listScrollParents.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/listScrollParents.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/dom-utils/listScrollParents.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/dom-utils/listScrollParents.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/enums.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/enums.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/enums.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/enums.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/enums.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/enums.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/index.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/index.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/index.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/index.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/index.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/index.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/applyStyles.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/applyStyles.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/applyStyles.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/applyStyles.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/applyStyles.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/applyStyles.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/arrow.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/arrow.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/arrow.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/arrow.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/arrow.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/arrow.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/computeStyles.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/computeStyles.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/computeStyles.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/computeStyles.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/computeStyles.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/computeStyles.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/eventListeners.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/eventListeners.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/eventListeners.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/eventListeners.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/eventListeners.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/eventListeners.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/flip.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/flip.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/flip.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/flip.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/flip.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/flip.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/hide.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/hide.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/hide.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/hide.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/hide.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/hide.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/index.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/index.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/index.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/index.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/index.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/index.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/offset.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/offset.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/offset.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/offset.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/offset.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/offset.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/popperOffsets.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/popperOffsets.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/popperOffsets.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/popperOffsets.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/popperOffsets.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/popperOffsets.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/preventOverflow.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/preventOverflow.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/preventOverflow.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/preventOverflow.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/modifiers/preventOverflow.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/modifiers/preventOverflow.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/popper-base.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/popper-base.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/popper-base.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/popper-base.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/popper-base.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/popper-base.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/popper-lite.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/popper-lite.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/popper-lite.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/popper-lite.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/popper-lite.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/popper-lite.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/popper.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/popper.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/popper.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/popper.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/popper.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/popper.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/types.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/types.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/types.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/types.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/types.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/types.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/computeAutoPlacement.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/computeAutoPlacement.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/computeAutoPlacement.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/computeAutoPlacement.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/computeAutoPlacement.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/computeAutoPlacement.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/computeOffsets.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/computeOffsets.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/computeOffsets.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/computeOffsets.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/computeOffsets.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/computeOffsets.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/debounce.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/debounce.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/debounce.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/debounce.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/debounce.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/debounce.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/detectOverflow.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/detectOverflow.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/detectOverflow.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/detectOverflow.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/detectOverflow.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/detectOverflow.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/expandToHashMap.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/expandToHashMap.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/expandToHashMap.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/expandToHashMap.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/expandToHashMap.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/expandToHashMap.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/format.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/format.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/format.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/format.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/format.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/format.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getAltAxis.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getAltAxis.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getAltAxis.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getAltAxis.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getAltAxis.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getAltAxis.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getAltLen.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getAltLen.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getAltLen.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getAltLen.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getAltLen.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getAltLen.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getBasePlacement.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getBasePlacement.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getBasePlacement.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getBasePlacement.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getBasePlacement.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getBasePlacement.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getFreshSideObject.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getFreshSideObject.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getFreshSideObject.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getFreshSideObject.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getFreshSideObject.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getFreshSideObject.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getMainAxisFromPlacement.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getMainAxisFromPlacement.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getMainAxisFromPlacement.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getMainAxisFromPlacement.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getMainAxisFromPlacement.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getMainAxisFromPlacement.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getOppositePlacement.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getOppositePlacement.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getOppositePlacement.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getOppositePlacement.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getOppositePlacement.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getOppositePlacement.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getOppositeVariationPlacement.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getOppositeVariationPlacement.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getOppositeVariationPlacement.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getOppositeVariationPlacement.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getOppositeVariationPlacement.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getOppositeVariationPlacement.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getVariation.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getVariation.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getVariation.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getVariation.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/getVariation.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/getVariation.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/math.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/math.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/math.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/math.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/math.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/math.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/mergeByName.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/mergeByName.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/mergeByName.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/mergeByName.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/mergeByName.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/mergeByName.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/mergePaddingObject.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/mergePaddingObject.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/mergePaddingObject.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/mergePaddingObject.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/mergePaddingObject.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/mergePaddingObject.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/orderModifiers.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/orderModifiers.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/orderModifiers.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/orderModifiers.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/orderModifiers.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/orderModifiers.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/rectToClientRect.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/rectToClientRect.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/rectToClientRect.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/rectToClientRect.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/rectToClientRect.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/rectToClientRect.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/uniqueBy.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/uniqueBy.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/uniqueBy.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/uniqueBy.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/uniqueBy.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/uniqueBy.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/validateModifiers.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/validateModifiers.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/validateModifiers.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/validateModifiers.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/validateModifiers.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/validateModifiers.js.flow"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/within.d.ts",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/within.d.ts"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/within.js",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/within.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/lib/utils/within.js.flow",
+      "PackagePath": "staticwebassets/lib/popper.js/lib/utils/within.js.flow"
+    },
+    {
       "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/package.json",
       "PackagePath": "staticwebassets/lib/popper.js/package.json"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/index.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/index.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/methods/defaults.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/methods/defaults.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/methods/destroy.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/methods/destroy.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/methods/disableEventListeners.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/methods/disableEventListeners.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/methods/enableEventListeners.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/methods/enableEventListeners.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/methods/placements.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/methods/placements.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/methods/update.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/methods/update.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/modifiers/applyStyle.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/modifiers/applyStyle.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/modifiers/arrow.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/modifiers/arrow.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/modifiers/computeStyle.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/modifiers/computeStyle.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/modifiers/flip.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/modifiers/flip.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/modifiers/hide.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/modifiers/hide.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/modifiers/index.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/modifiers/index.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/modifiers/inner.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/modifiers/inner.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/modifiers/keepTogether.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/modifiers/keepTogether.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/modifiers/offset.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/modifiers/offset.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/modifiers/preventOverflow.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/modifiers/preventOverflow.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/modifiers/shift.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/modifiers/shift.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/clockwise.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/clockwise.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/computeAutoPlacement.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/computeAutoPlacement.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/debounce.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/debounce.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/find.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/find.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/findCommonOffsetParent.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/findCommonOffsetParent.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/findIndex.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/findIndex.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getBordersSize.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getBordersSize.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getBoundaries.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getBoundaries.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getBoundingClientRect.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getBoundingClientRect.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getClientRect.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getClientRect.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getFixedPositionOffsetParent.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getFixedPositionOffsetParent.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getOffsetParent.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getOffsetParent.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getOffsetRect.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getOffsetRect.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getOffsetRectRelativeToArbitraryNode.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getOffsetRectRelativeToArbitraryNode.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getOppositePlacement.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getOppositePlacement.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getOppositeVariation.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getOppositeVariation.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getOuterSizes.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getOuterSizes.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getParentNode.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getParentNode.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getPopperOffsets.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getPopperOffsets.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getReferenceNode.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getReferenceNode.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getReferenceOffsets.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getReferenceOffsets.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getRoot.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getRoot.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getRoundedOffsets.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getRoundedOffsets.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getScroll.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getScroll.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getScrollParent.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getScrollParent.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getStyleComputedProperty.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getStyleComputedProperty.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getSupportedPropertyName.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getSupportedPropertyName.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getViewportOffsetRectRelativeToArtbitraryNode.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getViewportOffsetRectRelativeToArtbitraryNode.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getWindow.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getWindow.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/getWindowSizes.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/getWindowSizes.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/includeScroll.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/includeScroll.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/index.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/index.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/isBrowser.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/isBrowser.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/isFixed.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/isFixed.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/isFunction.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/isFunction.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/isIE.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/isIE.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/isModifierEnabled.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/isModifierEnabled.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/isModifierRequired.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/isModifierRequired.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/isNumeric.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/isNumeric.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/isOffsetContainer.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/isOffsetContainer.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/removeEventListeners.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/removeEventListeners.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/runModifiers.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/runModifiers.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/setAttributes.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/setAttributes.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/setStyles.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/setStyles.js"
+    },
+    {
+      "Id": "/Users/josemariasuarez/Workspace/web-app/web-app/wwwroot/lib/popper.js/src/utils/setupEventListeners.js",
+      "PackagePath": "staticwebassets/lib/popper.js/src/utils/setupEventListeners.js"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.web-app.props",

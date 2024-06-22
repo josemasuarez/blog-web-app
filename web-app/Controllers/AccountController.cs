@@ -51,7 +51,12 @@ namespace web_app.Controllers
             return View(model);
         }
 
-        // GET: Account/Register
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index", "Home");
+        }
+        
         public IActionResult Register()
         {
             return View();

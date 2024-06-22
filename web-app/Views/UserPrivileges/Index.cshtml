@@ -1,0 +1,27 @@
+@model IEnumerable<web_app.Models.User>
+
+@{
+    ViewData["Title"] = "User Privileges";
+}
+
+<h1>User Privileges</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Username)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => user.Username)</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@user.Id" class="btn btn-sm btn-primary">Edit Privileges</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

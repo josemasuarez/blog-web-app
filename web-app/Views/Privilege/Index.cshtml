@@ -1,0 +1,29 @@
+@model IEnumerable<web_app.Models.Privilege>
+
+@{
+    ViewData["Title"] = "Privileges";
+}
+
+<h1>Privileges</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Description)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.Description)</td>
+            <td>
+                <form asp-action="Delete" asp-route-id="@item.Id" method="post" class="d-inline">
+                    <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

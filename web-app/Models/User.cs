@@ -5,7 +5,7 @@ namespace web_app.Models
     public class User
     {
         [Key]
-        public int UserId { get; set; }
+        public int Id { get; set; }
         
         [Required]
         [Display(Name = "Username")]
@@ -15,5 +15,7 @@ namespace web_app.Models
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
         public string Password { get; set; }
+
+        public List<Privilege>? Privileges { get; set; }
     }
 }

@@ -26,12 +26,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/josemariasuarez/Workspace/web-app/web-app/Views/Blog/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/josemariasuarez/Workspace/web-app/web-app/Views/Blog/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/josemariasuarez/Workspace/web-app/web-app/Views/Blog/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/josemariasuarez/Workspace/web-app/web-app/Views/Blog/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/josemariasuarez/Workspace/web-app/web-app/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/josemariasuarez/Workspace/web-app/web-app/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/josemariasuarez/Workspace/web-app/web-app/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/josemariasuarez/Workspace/web-app/web-app/Views/Privilege/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJpdmlsZWdlL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/josemariasuarez/Workspace/web-app/web-app/Views/Shared/Error.cshtml]
@@ -50,8 +74,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/josemariasuarez/Workspace/web-app/web-app/Views/Test/TestDropdown.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVzdC9UZXN0RHJvcGRvd24uY3NodG1s
+[/Users/josemariasuarez/Workspace/web-app/web-app/Views/UserPrivileges/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclByaXZpbGVnZXMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/josemariasuarez/Workspace/web-app/web-app/Views/UserPrivileges/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclByaXZpbGVnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/josemariasuarez/Workspace/web-app/web-app/Views/_ViewImports.cshtml]

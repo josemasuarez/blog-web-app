@@ -5,10 +5,11 @@
 {
     <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="userMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Welcome, @username
+            Hola, @username
         </button>
         <div class="dropdown-menu" aria-labelledby="userMenu">
-            <a class="dropdown-item" asp-controller="Account" asp-action="Profile">Profile</a>
+            <a class="dropdown-item" asp-controller="Account" asp-action="Profile">Perfil</a>
+            <a class="dropdown-item" asp-controller="UserPrivileges" asp-action="Index">Privilegios</a>
             <a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a>
         </div>
     </div>
@@ -20,7 +21,7 @@ else
             <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" asp-controller="Account" asp-action="Register">Register</a>
+            <a class="nav-link" asp-controller="Account" asp-action="Register">Registrar</a>
         </li>
     </ul>
 }
