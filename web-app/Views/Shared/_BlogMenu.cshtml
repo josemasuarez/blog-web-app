@@ -1,9 +1,6 @@
-@{
-    var username = Context.Session.GetString("Username");
-}
-@if (!string.IsNullOrEmpty(username))
+@if (User.IsInRole("ADMIN") || User.IsInRole("EDITOR"))                        
 {
     <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-controller="Blog" asp-action="Index">Blog</a>
+        <a class="nav-link text-dark" asp-area="" asp-controller="Blog" asp-action="Index">Administrar Articulos</a>
     </li>
 }

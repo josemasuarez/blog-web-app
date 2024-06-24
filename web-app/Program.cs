@@ -1,10 +1,7 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using System;
 using Microsoft.EntityFrameworkCore;
+using web_app.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,25 +15,57 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
-builder.Services.AddDbContext<web_app.Models.BlogContext>(options =>
+// Register DbContext with SQL Server
+builder.Services.AddDbContext<BlogContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
-builder.Services.AddTransient<web_app.Models.JwtHandler>();
+// Register JwtHandler
+builder.Services.AddTransient<JwtHandler>();
 
-builder.Services.AddHttpClient<web_app.Models.IUserService, web_app.Models.UserService>(client =>
+// Register HttpClient services
+builder.Services.AddHttpClient<IUserService, UserService>(client =>
 {
     client.BaseAddress = new Uri("http://localhost:8080/");
 })
-.AddHttpMessageHandler<web_app.Models.JwtHandler>();
+.AddHttpMessageHandler<JwtHandler>();
 
-builder.Services.AddHttpClient<web_app.Models.IPrivilegeService, web_app.Models.PrivilegeService>(client =>
+builder.Services.AddHttpClient<IPrivilegeService, PrivilegeService>(client =>
 {
     client.BaseAddress = new Uri("http://localhost:8080/");
 })
-.AddHttpMessageHandler<web_app.Models.JwtHandler>();
+.AddHttpMessageHandler<JwtHandler>();
 
-builder.Services.AddScoped<web_app.Models.IBlogService, web_app.Models.BlogService>();
+// Register BlogService
+builder.Services.AddScoped<IBlogService, BlogService>();
+
+// Configure authentication
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Account/Login";
+        options.AccessDeniedPath = "/Account/AccessDenied";
+    });
+
+// Configure authorization
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("ViewerOrAdmin", policy =>
+    policy.RequireAssertion(context =>
+        context.User.HasClaim(claim => claim.Type == ClaimTypes.Role && (claim.Value == "VIEWER" || claim.Value == "ADMIN"))));
+
+    options.AddPolicy("AdminOrEditor", policy =>
+    policy.RequireAssertion(context =>
+        context.User.HasClaim(claim => claim.Type == ClaimTypes.Role && (claim.Value == "EDITOR" || claim.Value == "ADMIN"))));
+
+    options.AddPolicy("ViewerOrAdminOrEditor", policy =>
+        policy.RequireAssertion(context =>
+            context.User.HasClaim(claim => claim.Type == ClaimTypes.Role &&
+                                           (claim.Value == "VIEWER" || claim.Value == "ADMIN" || claim.Value == "EDITOR"))));
+
+    options.AddPolicy("Admin", policy =>
+        policy.RequireRole("ADMIN"));
+});
 
 var app = builder.Build();
 
@@ -52,6 +81,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 app.UseSession();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

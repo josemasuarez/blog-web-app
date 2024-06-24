@@ -1,12 +1,12 @@
 @model web_app.Models.BlogArticle
 
 @{
-    ViewData["Title"] = "Delete Blog Article";
+    ViewData["Title"] = "Publish Blog Article";
 }
 
-<h1>Borrar Articulo</h1>
+<h1>Publicar Articulo</h1>
 
-<h3>Esta seguro de borrar este articulo?</h3>
+<h3>Esta seguro de publicar este articulo?</h3>
 <div>
     <h4>Blog Article</h4>
     <hr />
@@ -25,8 +25,8 @@
         </dd>
     </dl>
     
-    <form asp-action="DeleteConfirmed" method="post">
+    <form asp-action="PublishConfirmed" method="post">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" />
+        <input type="submit" value="Publish" class="btn btn-sm btn-success" /> |
     </form>
 </div>

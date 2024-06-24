@@ -1,4 +1,7 @@
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using Microsoft.AspNetCore.Mvc;
 using web_app.Models;
 
@@ -25,23 +28,37 @@ namespace web_app.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (HttpContext.Session.GetString("JWT") != null)
-                {
-                    return RedirectToAction("Index", "Home");
-                }
-                
                 var jwt = await _authService.AuthenticateUserAsync(model.Username, model.Password);
                 if (jwt != null)
                 {
+                    // Save the JWT in the session
                     HttpContext.Session.SetString("JWT", jwt);
 
+                    // Decode the JWT to extract the username
                     var handler = new JwtSecurityTokenHandler();
                     var token = handler.ReadJwtToken(jwt);
                     var username = token.Claims.FirstOrDefault(c => c.Type == "sub")?.Value;
+                    var privileges = token.Claims.FirstOrDefault(c => c.Type == "privileges")?.Value;
 
                     if (!string.IsNullOrEmpty(username))
                     {
                         HttpContext.Session.SetString("Username", username);
+
+                        // Create the identity and sign in the user
+                        var claims = new List<Claim>
+                        {
+                            new Claim(ClaimTypes.Name, username)
+                        };
+
+                        // Add roles from the privileges claim
+                        var roles = privileges.Split(','); // assuming privileges are comma-separated
+                        foreach (var role in roles)
+                        {
+                            claims.Add(new Claim(ClaimTypes.Role, role.Trim().ToUpper())); // Convert roles to uppercase
+                        }
+
+                        var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
                     }
 
                     return RedirectToAction("Index", "Home");
@@ -51,12 +68,18 @@ namespace web_app.Controllers
             return View(model);
         }
 
-        public IActionResult Logout()
+        public async Task<IActionResult> Logout()
         {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             HttpContext.Session.Clear();
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Login", "Account");
         }
-        
+
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
+
         public IActionResult Register()
         {
             return View();

@@ -1,8 +1,28 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<web_app.Models.BlogArticle>
+@using web_app.Extensions
+
+@{
+    ViewData["Title"] = "Blog Articles";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Mi Blog</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1>Articulos Publicados</h1>
+
+<div class="row">
+    @foreach (var article in Model)
+    {
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">@article.Title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">by @article.Author on @article.CreatedDate.ToString("MMMM dd, yyyy")</h6>
+                    <p class="card-text">@article.Description.Truncate(100)</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a asp-controller="Blog" asp-action="Details" asp-route-id="@article.Id" class="btn btn-sm btn-outline-info">Leer mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
 </div>

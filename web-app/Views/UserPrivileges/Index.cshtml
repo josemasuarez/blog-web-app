@@ -2,9 +2,10 @@
 
 @{
     ViewData["Title"] = "User Privileges";
+    var currentUser = User.Identity.Name;
 }
 
-<h1>User Privileges</h1>
+<h1>Privilegios de Usuario</h1>
 
 <table class="table">
     <thead>
@@ -19,7 +20,14 @@
         <tr>
             <td>@Html.DisplayFor(modelItem => user.Username)</td>
             <td>
-                <a asp-action="Edit" asp-route-id="@user.Id" class="btn btn-sm btn-primary">Edit Privileges</a>
+                @if (user.Username != currentUser)
+                {
+                    <a asp-action="Edit" asp-route-id="@user.Id" class="btn btn-sm btn-primary">Editar Privilegios</a>
+                }
+                else
+                {
+                    <span class="text-muted">No puedes editar tus propios privilegios</span>
+                }
             </td>
         </tr>
     }

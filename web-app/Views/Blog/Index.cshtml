@@ -1,15 +1,16 @@
 @model IEnumerable<web_app.Models.BlogArticle>
+@using web_app.Extensions
 
 @{
     ViewData["Title"] = "Blog Articles";
 }
 
-<h1>Blog Articles</h1>
+<h1>Articulos del Blog</h1>
 
 <p>
-    <a asp-action="Create" class="btn btn-primary">Create New Article</a>
+    <a asp-action="Create" class="btn btn-primary">Nuevo Articulo</a>
 </p>
-<table class="table">
+<table class="table table-striped">
     <thead>
         <tr>
             <th>@Html.DisplayNameFor(model => model.Title)</th>
@@ -25,25 +26,32 @@
     {
         <tr>
             <td>@Html.DisplayFor(modelItem => article.Title)</td>
-            <td>@Html.DisplayFor(modelItem => article.Description)</td>
+            <td>@article.Description.Truncate(30)</td>
             <td>@Html.DisplayFor(modelItem => article.CreatedDate)</td>
             <td>@Html.DisplayFor(modelItem => article.UpdatedDate)</td>
-            <td>@Html.DisplayFor(modelItem => article.IsPublished)</td>
             <td>
-                @if (!article.IsPublished)
-                {
-                    <a asp-action="Edit" asp-route-id="@article.Id" class="btn btn-sm btn-warning">Edit</a>
-                    <a asp-action="Details" asp-route-id="@article.Id" class="btn btn-sm btn-info">Details</a>
-                    <a asp-action="Delete" asp-route-id="@article.Id" class="btn btn-sm btn-danger">Delete</a>
-                    <form asp-action="Publish" method="post" class="d-inline">
-                        <input type="hidden" name="id" value="@article.Id" />
-                        <button type="submit" class="btn btn-sm btn-success">Publish</button>
-                    </form>
-                }
-                else
-                {
-                    <a asp-action="Details" asp-route-id="@article.Id" class="btn btn-sm btn-info">Details</a>
-                }
+                <input type="checkbox" disabled="disabled" @(article.IsPublished ? "checked" : "") />
+            </td>
+            <td>
+                <div class="btn-group" role="group">
+                    @if (!article.IsPublished)
+                    {
+                        <a asp-action="Edit" asp-route-id="@article.Id" class="btn btn-sm btn-warning">Editar</a>
+                        <a asp-action="Details" asp-route-id="@article.Id" class="btn btn-sm btn-info">Detalle</a>
+                        <form asp-action="Delete" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@article.Id" />
+                            <button type="submit" class="btn btn-sm btn-danger">Borrar</button>
+                        </form>
+                        <form asp-action="Publish" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@article.Id" />
+                            <button type="submit" class="btn btn-sm btn-success">Publicar</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <a asp-action="Details" asp-route-id="@article.Id" class="btn btn-sm btn-info">Detalle</a>
+                    }
+                </div>
             </td>
         </tr>
     }

@@ -4,12 +4,15 @@
 @if (!string.IsNullOrEmpty(username))
 {
     <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="userMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Hola, @username
-        </button>
-        <div class="dropdown-menu" aria-labelledby="userMenu">
-            <a class="dropdown-item" asp-controller="Account" asp-action="Profile">Perfil</a>
-            <a class="dropdown-item" asp-controller="UserPrivileges" asp-action="Index">Privilegios</a>
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="userMenu" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Hola, @username
+    </button>
+    <div class="dropdown-menu" aria-labelledby="userMenu">
+        @if (User.IsInRole("ADMIN"))
+            {
+                <a class="dropdown-item" asp-controller="UserPrivileges" asp-action="Index">Privilegios</a>
+            }
             <a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a>
         </div>
     </div>
@@ -17,11 +20,11 @@
 else
 {
     <ul class="nav navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" asp-controller="Account" asp-action="Register">Registrar</a>
-        </li>
-    </ul>
+    <li class="nav-item">
+        <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-controller="Account" asp-action="Register">Registrar</a>
+    </li>
+</ul>
 }

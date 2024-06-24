@@ -7,20 +7,24 @@ namespace web_app.Models
         public int Id { get; set; }
 
         [Required]
-        [Display(Name = "Title")]
-        public string Title { get; set; }
+        [Display(Name = "Titulo")]
+        public required string Title { get; set; }
 
         [Required]
-        [Display(Name = "Description")]
-        public string Description { get; set; }
+        [Display(Name = "Descripcion")]
+        public required string Description { get; set; }
 
-        [Display(Name = "Created Date")]
+        [Display(Name = "Fecha de creacion")]
         public DateTime CreatedDate { get; set; }
 
-        [Display(Name = "Updated Date")]
+        [Display(Name = "Fecha de actualizacion")]
         public DateTime UpdatedDate { get; set; }
                 
-        [Display(Name = "Published")]
+        [Display(Name = "Publicado")]
         public bool IsPublished { get; set; }
+
+        [Required]
+        [Display(Name = "Autor")]
+        public required string Author { get; set; }
     }
 }

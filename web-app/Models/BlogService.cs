@@ -19,9 +19,21 @@ namespace web_app.Models
             return await _context.BlogArticles.ToListAsync();
         }
 
+        public async Task<IEnumerable<BlogArticle>> GetBlogArticlesByAuthorAsync(string author)
+        {
+            return await _context.BlogArticles
+                                 .Where(article => article.Author == author)
+                                 .ToListAsync();
+        }
+
         public async Task<BlogArticle> GetBlogArticleByIdAsync(int id)
         {
             return await _context.BlogArticles.FindAsync(id);
+        }
+
+        public async Task<IEnumerable<BlogArticle>> GetPublishedBlogArticlesAsync()
+        {
+            return await _context.BlogArticles.Where(a => a.IsPublished).ToListAsync();
         }
 
         public async Task<bool> CreateBlogArticleAsync(BlogArticle article)
@@ -35,7 +47,7 @@ namespace web_app.Models
         public async Task<bool> UpdateBlogArticleAsync(BlogArticle article)
         {
             var existingArticle = await _context.BlogArticles.FindAsync(article.Id);
-            if (existingArticle == null || existingArticle.IsPublished)
+            if (existingArticle == null)
             {
                 return false;
             }

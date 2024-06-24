@@ -2,9 +2,12 @@ using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using System.Threading.Tasks;
 using web_app.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace web_app.Controllers
 {
+    
+    [Authorize(Policy = "Admin")]
     public class UserPrivilegesController : Controller
     {
         private readonly IUserService _userService;
